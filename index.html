@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wibinx | </title>
+	<title>Wibinx | Nama Olshop</title>
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/popper.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     <link rel="stylesheet" href="assets/css/style-custom.css">
     
-    <link rel="shortcut icon" href="assets/image/user_image/logo.png" type="image/x-icon" />
+    
+    <style type="text/css">
+    .preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background-color: #fff;
+    }
+    .preloader .loading {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font: 14px arial;
+    }
+    </style>
+    <script>
+    $(document).ready(function(){
+      $(".preloader").delay(1300).fadeOut();
+    })
+    </script>
 </head>
 <body>
-<div class="row">
-	<div class="col-md-4"></div>
-	<div class="col-md-4">
-		<div class="container">
-			<nav class="navbar navbar-light ">
+    <div class="preloader">
+      <div class="loading">
+        <img src="assets/image/loader4.gif" width="400">
+        
+      </div>
+    </div>
+<section>
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="container">
+            <nav class="navbar navbar-light ">
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#oyik"
                         aria-controls="oyik" aria-expanded="false" aria-label="toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,125 +68,150 @@
                         </div>
                     </div>
                 </nav>
+                <!-- Logo Olshop-->
                 <center>
                     <img src="assets/image/logo.png" class="rounded-circle mt-3 shadow"
                         width="120vmax" height="120vmax" alt="" />
                 </center>
                 <div class="container text-center">
-                    <h2>Djava99store</h2>
+                    <h3><b>Djava99store</b></h3>
                 </div>
+                <!-- end logo -->
 
-				<div class="container">
-					<h5 class="mt-3 mb-2">Tentang Kami</h5>
-					<div class="card">
-  						<div class="card-body">
-    						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  						</div>
-					</div>
-				</div>
-				<div class="container">
-					<h5 class="mt-3 mb-1">Admin</h5>
-                    <a href="https://api.whatsapp.com/send?phone=6285695644653" class="btn btn-link-custom col-md-12">WhatsApp</a>
-                    
-                    <h5 class="mt-3 mb-1">Sosial Media</h5>
-                    <div class="table-responsive">
-                    	<table cellpadding="6">
-                    		<thead>
-                    			<tr>
-                    				<td style="height: 150px; width: 150px;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">@yournotebook.id</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    				<td style="height: 8rem;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">@Djavastore jaya sellau</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    				<td style="height: 8rem;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">Yournotebook.id</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    			</tr>
-                    		</thead>
-                    	</table>
+                <!-- Tentang-->
+                <div class="container" style="margin-top: 30px;">
+                    <h6 class="mt-3 mb-2"><b>Tentang Kami</b></h5>
+                    <div class="card">
+                        <div class="card-body" style="padding: 1rem;">
+                            <p class="card-text fontsize">Menjual berbagai peralatan elektronik murah dan cepat. Cari peralatan elektronik kekinikan? Ya kami dong</p>
+                        </div>
                     </div>
-                    <h5 class="mt-3 mb-1">Marketplace</h5>
-                    <div class="table-responsive">
-                    	<table cellpadding="8">
-                    		<thead>
-                    			<tr>
-                    				<td style="height: 8rem;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">@Djavastore</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    				<td style="height: 8rem;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">@Djavastore</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    				<td style="height: 8rem;">
-                    					<a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
-                    					
-                    						<div class="card">
-  												<div class="card-body">
-  													<img src="assets/image/in.png" class="mt-2 mb-1" width="50vmax" alt="">
-    												<p class="card-text" style="font-size: 12px;">@Djavastore</p>
-  												</div>
-											</div>
-                    					
-                    					</a>
-                    				</td>
-                    			</tr>
-                    		</thead>
-                    	</table>
-                    </div>
-                    <h5 class="mt-3 mb-1">Produk Best Seller</h5>
+                </div>
+                <!-- end tentang-->
+
+                <div class="container" style="margin-top: 30px;">
+                    <!-- Admin Wa-->
+                    <h6 class="mt-3 mb-1"><b>Admin</b></h6>
+                    <a href="https://api.whatsapp.com/send?phone=6285695644653" class="btn btn-link-custom col-md-12 fontsize">WhatsApp</a>
                     
-				</div>
-		</div>
-	</div>
+                <div style="margin-top: 30px">
+                    <!-- Start sosial media-->    
+                    <h6 class="mt-3 mb-1"><b>Sosial Media</b></h6>
+                    <div class="table-responsive">
+                        <table cellpadding="6">
+                            <thead>
+                                <tr>
+                                    <!-- Instagram-->
+                                    <td>
+                                        <a href="https://instagram.com/" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="assets/image/ig.png" class="mt-2 mb-1" width="50vmax" alt="">
+                                                    <p class="card-text" style="font-size: 12px;">Yournotebook.id</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                    <!-- Facebook-->
+                                    <td>
+                                        <a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="assets/image/fb.png" class="mt-2 mb-1" width="50vmax" alt="">
+                                                    <p class="card-text" style="font-size: 12px;">@Djavastore jaya sellau</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                    <!-- Youtube-->
+                                    <td >
+                                        <a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="assets/image/yt.png" class="mt-2 mb-1" width="50vmax" alt="">
+                                                    <p class="card-text" style="font-size: 12px;">Freezemask Channel</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+                <div style="margin-top: 30px;">
+                    <!-- Start marketplace-->
+                    <h6 class="mt-3 mb-1"><b>Marketplace</b></h6>
+                    <div class="table-responsive">
+                        <table cellpadding="8">
+                            <thead>
+                                <tr>
+                                    <!-- Shopee-->
+                                    <td>
+                                        <a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="background: #f1582c; height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="assets/image/shop.png" class="mt-2 mb-2" width="50vmax" title="image from freepnglogos.com">
+                                                    <p class="card-text" style="font-size: 12px; color: white;">djavastore_shopee</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                    <!-- Tokopedia-->
+                                    <td style="height: 8rem;">
+                                        <a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="background: #58b24d; height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="assets/image/tokped.png" class="mt-2 mb-1" width="50vmax" title="image from tokopedia.com">
+                                                    <p class="card-text" style="font-size: 12px; color: white;">Toko dajaya</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                    <!-- Bukalapak-->
+                                    <td style="height: 8rem;">
+                                        <a href="https://instagram.com/Djava99store" class="text-center" style="text-decoration:none; color: #000;">
+                                        
+                                            <div class="card" style="background: #e2004d; height: 110px;width: 110px;">
+                                                <div class="card-body">
+                                                    <img src="https://4.bp.blogspot.com/-qswR3aGv33Q/XvdEPPo3ZdI/AAAAAAAABVE/PAh0p7QywD8uDs2m1jSov6wM7GblPqt2gCLcBGAsYHQ/s1600/Artboard%2B3.png" class="mt-2 mb-1" width="50vmax" title="image from bukapalak.com">
+                                                    <p class="card-text" style="font-size: 12px; color: white;">Toko djaya</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </a>
+                                    </td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+                <div style="margin-top: 30px;">
+                    <h6 class="mt-3 mb-1"><b>Produk Best Seller</b></h6>
+                    <!--- Tempat foto disini -->
+                </div>    
+            </div>
+        </div>
+    </div>
 </div>
+</section>
 </body>
 </html>
 <style>
+
+.fontsize {
+    font-size: 14px;
+}
 .btn-link-custom {
     width: 100%;
     background-color: #f9fbfd;
